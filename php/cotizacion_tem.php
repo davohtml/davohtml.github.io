@@ -1,7 +1,7 @@
 <?php
 				/*versión de PHP 5.5*/
 	//Guarda en el email donde se enviará la información
-	$vEmail = "fabricamos@todoenmueblescr.com, cotizamos@todoenmueblescr.com";
+	$vEmail = "yoshuaber@gmail.com";
 
 	//Guarda el asunto del email
 	$vAsunto = "Cotización";
