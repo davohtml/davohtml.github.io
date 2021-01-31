@@ -33,7 +33,7 @@
 						."Mensaje del Usuario: ".$vMensaje;
 	
 	/*Página donde va a ser redirigidad después de presionar el botón de enviar*/
-	$vPaginaRedirigir = "../cotizacion.html";
+	$vPaginaRedirigir = "cotizacion.html";
 
 	/*Envía la información capturada hacia un correo electrónico
 		mail 	=> coloca el correo, asunto, cuerpo del correo
