@@ -1,0 +1,133 @@
+.head {
+    background-image: linear-gradient(-90deg, rgba(252, 252, 252, 1), rgba(217, 217, 217, 1), rgba(184, 184, 184, 1))
+}
+
+.cat {
+    height: 400px !important;
+    width: 400px !important;
+    top: 45%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+}
+
+.car {
+    height: 95vh !important;
+}
+
+.texto {
+    bottom: 15%;
+    left: 0
+}
+
+.prev,
+.next,
+.prev-cat,
+.next-cat {
+    position: absolute;
+}
+
+.prev,
+.prev-cat {
+    top: 30vh !important;
+    left: 5%
+}
+
+.next,
+.next-cat {
+    top: 30vh !important;
+    right: 5%
+}
+
+.carindi {
+    height: 5vh !important;
+    background-image: linear-gradient(-90deg, rgba(252, 252, 252, 1), rgba(217, 217, 217, 1), rgba(184, 184, 184, 1))
+}
+
+.cattext {
+    bottom: 10%;
+    left: 40%;
+}
+
+i {
+    color: rgba(81, 15, 5);
+}
+
+.textoim {
+    bottom: 40%;
+    right: 5%;
+    left: 5%;
+}
+
+a:hover .textoim {
+    display: block;
+    color: #ff0;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+    opacity: 0.8
+}
+
+.imgclass:hover {
+    filter: saturate(150%);
+}
+
+@media screen and (max-width: 576px) {
+    .prev {
+        top: 75vh;
+        left: 5%
+    }
+    .next {
+        top: 75vh;
+        right: 5%
+    }
+    .prev-cat,
+    .next-cat {
+        top: 45%
+    }
+    .car {
+        height: 65vh !important
+    }
+    .cat {
+        top: 15%;
+        width: 70vw !important;
+        height: 250px !important;
+        left: 15%;
+        right: 15%;
+        margin: 0 auto
+    }
+    .cattext {
+        bottom: 25%;
+        left: 25%;
+        right: 25%
+    }
+}
+
+@media (min-width: 577px) {
+    .prev {
+        top: 55vh;
+        left: 5%
+    }
+    .next {
+        top: 55vh;
+        right: 5%
+    }
+    .prev-cat,
+    .next-cat {
+        top: 45%
+    }
+    .car {
+        height: 95vh !important
+    }
+    .cat {
+        top: 15%;
+        width: 400px !important;
+        height: 400px !important;
+        left: 15%;
+        right: 15%;
+        margin: 0 auto
+    }
+    .cattext {
+        bottom: 10%;
+        left: 40%;
+    }
+}
